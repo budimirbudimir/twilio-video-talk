@@ -22,7 +22,6 @@ const theme = {
   }
 };
 
-import hearcom from './hearcom.png';
 import actionList from './action-list.png';
 import cache from './cache.png';
 import network from './network.png';
