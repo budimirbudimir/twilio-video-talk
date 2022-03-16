@@ -1,5 +1,7 @@
 # ta-rtk-query-slides
 
+Made using [Spectacle](https://github.com/FormidableLabs/spectacle).
+
 To install dependencies, please run `yarn` or `npm i`.
 
 To run the app, run `yarn dev` or `npm dev`.
