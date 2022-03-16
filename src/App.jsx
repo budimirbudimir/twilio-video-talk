@@ -47,21 +47,6 @@ const template = () => (
 function Presentation() {
   return (
     <Deck theme={theme} template={template}>
-    {/* SLIDE 1 - hear.com logo */}
-    <Slide backgroundColor="#FFF">
-      <FlexBox height="100%">
-        {/* <SpectacleLogo size={500} /> */}
-        <Image src={hearcom} width={500} />
-      </FlexBox>
-      <Notes>
-        Spectacle supports notes per slide.
-        <ol>
-          <li>Notes can now be HTML markup!</li>
-          <li>Lists can make it easier to make points.</li>
-        </ol>
-      </Notes>
-    </Slide>
-
     {/* SLIDE 2 - RTK splash */}
     <Slide>
       <FlexBox height="100%" flexDirection="column">
