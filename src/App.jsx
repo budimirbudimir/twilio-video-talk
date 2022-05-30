@@ -23,6 +23,7 @@ import Fifth from './slides/Fifth';
 import Sixth from './slides/Sixth';
 import Seventh from './slides/Seventh';
 import Eighth from './slides/Eighth';
+import EighthB from './slides/EighthB';
 import Ninth from './slides/Ninth';
 import Tenth from './slides/Tenth';
 import Eleventh from './slides/Eleventh';
@@ -73,6 +74,7 @@ function Presentation() {
 
     {/* SLIDE 8 - Beautiful Caching */}
     <Eighth />
+    <EighthB />
 
     {/* SLIDE 9 - Beautiful Debugging */}
     <Ninth />

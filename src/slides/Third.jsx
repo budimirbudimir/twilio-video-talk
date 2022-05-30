@@ -22,20 +22,26 @@ const Third = () => {
       <UnorderedList>
         <Appear>
           <ListItem>
-            First, we need to establish the connection via server (STUN/TURN)
+            First, we need to <u>establish the connection</u> via STUN/TURN server
           </ListItem>
         </Appear>
 
         <Appear>
           <ListItem>
-            Then, we can exchange data directly in between participants
+            Then, we can <u>exchange data directly</u> in between participants
           </ListItem>
         </Appear>
 
         <Appear>
           <ListItem>
-            Sometimes, servers can be used as intermediaries for more advanced purposes (recording, stream altering, resampling, simulcast, etc)
+            Sometimes, servers can be used <u>as intermediaries</u> for more advanced purposes
           </ListItem> 
+        </Appear>
+
+        <Appear>
+          <ListItem>
+            Some examples of that are recording, stream altering, resampling, simulcast, etc
+          </ListItem>
         </Appear>
       </UnorderedList>
     </Slide>

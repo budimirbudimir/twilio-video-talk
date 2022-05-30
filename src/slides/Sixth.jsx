@@ -22,27 +22,27 @@ const Sixth = () => {
       <UnorderedList>
         <Appear>
           <ListItem>
-            Room: Top-level entity containing rest of the connection data
+            <u>Room</u>: Top-level entity containing rest of the connection data
           </ListItem>
         </Appear>
         <Appear>
           <ListItem>
-            Participant: Unique connection to our room, i.e. browser tab
+            <u>Participant</u>: Unique connection to our room, i.e. browser tab
           </ListItem>
         </Appear>
         <Appear>
           <ListItem>
-            Track: Media stream track, acquired locally via browser, and shared via Room
+            <u>Track</u>: Media stream track, acquired locally via browser, and shared via Room
           </ListItem>
         </Appear>
         <Appear>
           <ListItem>
-            Event: Events Twilio SDK emits to notify us about room state changes
+            <u>Event</u>: Events Twilio SDK emits to notify us about room state changes
           </ListItem>
         </Appear>
         <Appear>
           <ListItem>
-            TwilioError: Custom Twilio-defined errors that can be thrown by SDK
+            <u>TwilioError</u>: Custom Twilio-defined errors that can be thrown by SDK
           </ListItem>
         </Appear>
       </UnorderedList>

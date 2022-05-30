@@ -21,25 +21,25 @@ const Fourth = () => {
       <Heading>What will Twilio handle for us?</Heading>
       <UnorderedList>
         <Appear>
-          <ListItem>Establishing connection</ListItem>
+          <ListItem>Establishing <u>connection</u></ListItem>
         </Appear>
         <Appear>
-          <ListItem>Security</ListItem>
+          <ListItem><u>Security</u> concerns</ListItem>
         </Appear>
         <Appear>
-          <ListItem>Participant presence</ListItem>
+          <ListItem>Participant <u>presence</u></ListItem>
         </Appear>
         <Appear>
-          <ListItem>Track creation and publication</ListItem>
+          <ListItem>Track <u>creation and publication</u></ListItem>
         </Appear>
         <Appear>
-          <ListItem>Observes participants and tracks</ListItem>
+          <ListItem><u>Participants and tracks</u> observability</ListItem>
         </Appear>
         <Appear>
-          <ListItem>Observes room connection states and changes</ListItem>
+          <ListItem><u>Room</u> connection states and changes</ListItem>
         </Appear>
         <Appear>
-          <ListItem>Able to automatically deal with dynamic workloads on the server</ListItem>
+          <ListItem>Dynamic <u>workloads/processing</u> on the server</ListItem>
         </Appear>
       </UnorderedList>
     </Slide>

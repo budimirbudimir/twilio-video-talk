@@ -18,12 +18,12 @@ import {
 const Seventh = () => {
   return (
     <Slide>
-      <Heading>How is it used?</Heading>
+      <Heading>How is it used: Connection</Heading>
 
       <h2>Get access token</h2>
       <CodePane language="ts">
         {`
-          const accessToken: string = getToken(name: string, roomId: string, options: ConnectOptions)
+          const accessToken: string = getToken(user_identity: string, room_name: string)
         `}
       </CodePane>
 

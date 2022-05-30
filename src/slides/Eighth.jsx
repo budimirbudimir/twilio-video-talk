@@ -18,12 +18,11 @@ import {
 const Seventh = () => {
   return (
     <Slide>
-      <Heading>How is it used? pt2</Heading>
+      <Heading>How is it used: Tracks</Heading>
 
       <h2>Get all remote tracks from all remote participants in the room</h2>
       <CodePane language="ts">
         {`
-          const remoteParticipants = room.participants.values()
           const remoteTracks = remoteParticipants.reduce((acc, rp) => {
             acc = [...acc, ...tracks.values()]
           }, [])
@@ -33,15 +32,9 @@ const Seventh = () => {
       <h2>Get raw tracks from local participant’s devices</h2>
       <CodePane language="ts">
         {`
-          const tracks = navigator.mediaDevices.getUserMedia().then(stream => stream.getTracks())
-        `}
-      </CodePane>
-
-      <h2>Display published track in the application</h2>
-      <CodePane language="ts">
-        {`
-          const video = twilioVideo.publishLocalTrack(track: LocalTrack): HTMLVideoElement<any>
-          document.appendChild(video)
+          const tracks = navigator.mediaDevices.getUserMedia()
+            .then(stream => handleTracks(stream.getTracks()))
+            .catch(err => handleError(err))
         `}
       </CodePane>
     </Slide>
