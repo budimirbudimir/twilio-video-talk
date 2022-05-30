@@ -1,6 +1,8 @@
 # ta-rtk-query-slides
 
-Made using [Spectacle](https://github.com/FormidableLabs/spectacle).
+[Presentation for FEMUG meetup #1 @ audibene, Berlin](https://www.meetup.com/femug-berlin/events/285819726/)
+
+---
 
 To install dependencies, please run `yarn` or `npm i`.
 
@@ -13,3 +15,5 @@ Then you can visit the application in:
 If you open 2 windows in the same browser (for some reason), you should see both modes working and presenter being able to control presentation. 🎊
 
 Have fun reading! 🚀
+
+Made using [Spectacle](https://github.com/FormidableLabs/spectacle).
