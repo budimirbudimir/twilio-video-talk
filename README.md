@@ -1,4 +1,4 @@
-# ta-rtk-query-slides
+# Build WebRTC apps fast with React & Twilio Video SDK
 
 [Presentation for FEMUG meetup #1 @ audibene, Berlin](https://www.meetup.com/femug-berlin/events/285819726/)
 
